@@ -1,0 +1,45 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+h1 {
+  color: midnightblue;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.p1 {
+  color: black;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  margin-top: 55px;
+}
+
+
+ .contact{
+    color: blue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-top: 500px;
+}
+
+footer {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+
+    
+}
