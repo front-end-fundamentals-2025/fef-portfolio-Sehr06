@@ -10,17 +10,45 @@
 <body>
     <main>
         <h1>Sehr Lohsar</h1>
-        
-        <p class="p2">Phone number: 073-734 92 03 </p>
-        <p class="p3">Private Email: sehrlohsar@gmail.com </p>
-        <p class="p4">University Email: lose24wo@student.ju.se </p>
-        <p class="p5">Instagram: sehr.lohsar </p>
 
-        <div class="index">
-          <a href="index.html"> Home </a>
+      <div class="container">
+        <label form="fname">First Name:</label>
+        <input type="text" 
+        id="fname" 
+        name="first name" 
+        placeholder="Your Name..">
+
+        <label for="lname">Last Name:</label>
+        <input type="text" 
+        id="lname" 
+        name="lastname" 
+        placeholder="Your last name..">
+
+        <label for="country">Country:</label>
+        <select id="country"
+        name="country">
+        <option value="sweden">Sweden</option>
+        <option value="norway">Norway</option>
+        <option value="denmark">Denmark</option>
+      </select>
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" 
+      name="subject" 
+      placeholder="Write something.."
+      style="height:100px"></textarea>
+
+      <input type="submit" 
+      value="Submit">
+
       </div>
-      
-      </main>
+
+      <div class="index">
+        <a href="index.html"> Home </a>
+    </div>
+    
+    </main>
+
       <footer>
         <p>&copy; Sehr 2006 </p>
       </footer>
