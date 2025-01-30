@@ -5,13 +5,12 @@ body {
   box-sizing: border-box;
 }
 
-
 h1 {
   color: midnightblue;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
-  margin-top: 40px;
+  margin-top: 4rem;
 }
 
 .p1 {
@@ -19,8 +18,8 @@ h1 {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 7rem;
+  margin-right: 7rem;
 }
 
 .contact {
@@ -28,7 +27,7 @@ h1 {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 
 .projects {
@@ -36,7 +35,7 @@ h1 {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
-  margin-top: 10px;
+  margin-top: 1remx;
 }
 
 footer {
@@ -46,9 +45,6 @@ footer {
   font-family: "Times New Roman", Times, serif;
   font-size: 15px;
   width: 100%;
-  bottom: 0;
-  position: relative;
-  height: 5vw;
   display: flex;
   justify-content: center;
 }
@@ -63,7 +59,7 @@ img {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
-  margin-top: 200px;
+  margin-top: 20rem;
 }
 
 input [type="text"],
@@ -75,8 +71,8 @@ textarea {
   border: 1px solid #b4afaf;
   border-radius: 10px;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+  margin-top: 0.6rem;
+  margin-bottom: 1.6rem;
   resize: vertical;
 }
 
@@ -144,27 +140,13 @@ input[type="submit"] {
   font-size: 15px;
 }
 
-.img1 {
+.img1, .img2, .img3, .img4, .img5, .img6 {
   width: 40%;
   margin: 0;
 }
-.img2{
-  margin: 0;
-  margin-bottom: 2rem;
-}
-.img3{
-  margin: 0;
-  margin-bottom: 2rem;
-}
-.img4{
-  margin: 0;
-  margin-bottom: 2rem;
-}
-.img5{
-  margin: 0;
-  margin-bottom: 2rem;
-}
-.img6{
-  margin: 0;
-  margin-bottom: 2rem;
-}
+
+ @media screen and (max-width: 450px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr); 
+  }
+ }
