@@ -145,6 +145,15 @@ input[type="submit"] {
   margin: 0;
 }
 
+.p2{
+  color: black;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
  @media screen and (max-width: 450px) {
   .grid-container {
     grid-template-columns: repeat(1, 1fr); 
