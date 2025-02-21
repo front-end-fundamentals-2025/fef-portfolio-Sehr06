@@ -161,7 +161,7 @@ input[type="submit"] {
 }
 
 .img1, .img2, .img3, .img4, .img5, .img6 {
-  animation: shake 3s infinite alternate, pause 4s infinite;
+  animation: shake 3s infinite alternate;
 }
 
 @keyframes shake {
@@ -176,9 +176,4 @@ input[type="submit"] {
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-
-@keyframes pause {
-  0%, 50% { opacity: 10; }
-  50.01%, 100% { transform: none; } 
 }
